@@ -72,7 +72,6 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 
         }
 
-
     }
 
 
