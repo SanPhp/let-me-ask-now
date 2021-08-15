@@ -62,7 +62,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 :root {
-    --bg: #feb062;
+    --bg: #E7E7E7;
     --text-color: #3f3b3b;
     --gray: #232125;
     --gray-200: #37353C;
