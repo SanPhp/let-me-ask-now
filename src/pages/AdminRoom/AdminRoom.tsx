@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { PageRoom, Header, Main, Form, UserInfo, QuestionList } from "./style"
+import { PageRoom, Header, Main, UserInfo, QuestionList } from "./style"
 import logoImg from "../../assets/images/logo.svg"
 import { Button } from "../../components/Button/Button"
 import { RoomCode } from "../../components/RoomCode/RoomCode"
@@ -16,7 +16,7 @@ type RoomParams = {
 }
 
 
-export function Room() {
+export function AdminRoom() {
     const { user } = useAuth();
     const params = useParams<RoomParams>();
     const [newQuestion, setNewQuestion] = useState('');
@@ -70,28 +70,6 @@ export function Room() {
                     {questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
                 </div>
 
-
-                <Form onSubmit={handleSendQuestion}>
-                    <textarea
-                        placeholder="O que você quer perguntar"
-                        onChange={event => setNewQuestion(event.target.value)}
-                        value={newQuestion}
-                    />
-
-                    <div>
-                        {user ? (
-                            <UserInfo>
-                                <img src={user.avatar} alt={user.name} />
-                                <span>{user.name}</span>
-                            </UserInfo>
-                        ) : (
-                            <span>para enviar uma pergunta, <button>faça seu login.</button></span>
-
-                        )}
-
-                        <Button type="submit" disabled={!user}>Enviar pergunta</Button>
-                    </div>
-                </Form>
 
                 <QuestionList>
                     {questions.map(question => {
