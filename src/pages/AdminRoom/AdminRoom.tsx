@@ -22,11 +22,11 @@ export function AdminRoom() {
     const [newQuestion, setNewQuestion] = useState('');
     const roomId = params.id
 
-    
+
     const { title, questions } = useRoom(roomId)
 
 
-    
+
 
     async function handleSendQuestion(event: FormEvent) {
         event.preventDefault();
@@ -59,7 +59,11 @@ export function AdminRoom() {
             <Header>
                 <div>
                     <a href="/" title="Ir para Home"><img src={logoImg} alt="imagem" /></a>
-                    <RoomCode code={roomId} />
+
+                    <div>
+                        <RoomCode code={roomId} />
+                        <Button isOutlined>Encerrar sala</Button>
+                    </div>
                 </div>
             </Header>
 

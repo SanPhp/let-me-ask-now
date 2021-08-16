@@ -21,7 +21,7 @@ export const Header = styled.header`
             > img {
             max-height: 50px;
         }
-        }
+    }
 
         
     }

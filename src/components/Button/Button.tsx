@@ -1,11 +1,13 @@
 import { ButtonHTMLAttributes } from 'react'
 import { ButtonGlobal } from './style'
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+    isOutlined?: boolean
+}
 
-export function Button(props: ButtonProps){
+export function Button({ isOutlined = false, ...props }: ButtonProps){
     return(
-        <ButtonGlobal {...props} />
+        <ButtonGlobal isOutlined={isOutlined} {...props} />
 
     )
 }

@@ -8,7 +8,7 @@ export const Header = styled.header`
     padding:  24px;
     border-bottom:  1px solid #e2e2e2;
 
-    div {
+    div:first-child {
         max-width: 1128px;
         margin: 0 auto;
         display: flex;
@@ -22,8 +22,17 @@ export const Header = styled.header`
             max-height: 50px;
         }
         }
-
         
+    }
+
+    div:last-child {
+        display: flex;
+        gap: 16px;
+      
+
+        button {
+            height: 40px;
+        }
     }
 `
 export const Main = styled.main`
