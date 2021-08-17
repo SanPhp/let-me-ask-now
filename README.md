@@ -1,6 +1,6 @@
-<div align="center">
-![Alt text](src/assets/images/logo.svg?raw=true "Logo")
-  </div>
+
+![Logo](src/assets/images/logo.svg?raw=true "Logo"){ width="800" height="600" style="display: block; margin: 0 auto" }
+
 
 # 🛠 Technologies
 
