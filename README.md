@@ -1,5 +1,5 @@
 <p align="center">
-![Logo](src/assets/images/logo.svg?raw=true "Logo")
+   <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
 </p>
 
 
