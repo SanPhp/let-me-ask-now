@@ -1,3 +1,5 @@
+![Alt text](src/assets/images/logo.svg?raw=true "Logo")
+
 # 🛠 Technologies
 
 - [React](https://reactjs.org/)
