@@ -63,5 +63,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Developement
 
-<p align="center">Development by me Sandro Gonçalves https://github.com/SanPhp</p>
+<p align="center">Development by me [Sandro Gonçalves](https://github.com/SanPhp)</p>
 
