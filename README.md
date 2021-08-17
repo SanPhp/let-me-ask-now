@@ -1,4 +1,6 @@
+<div align="center">
 ![Alt text](src/assets/images/logo.svg?raw=true "Logo")
+  </div>
 
 # 🛠 Technologies
 
