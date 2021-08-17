@@ -1,5 +1,6 @@
 <p align="center">
    <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
+   <p>Let me ask é uma plataforma que cria salas de Q&A ao vivo onde os espectadores podem enviar e votar em perguntas para serem respondidas.</p>
 </p>
 
 <p align="center">
