@@ -1,6 +1,6 @@
 <p align="center">
    <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
-   <p>Let me ask é uma plataforma que cria salas de Q&A ao vivo onde os espectadores podem enviar e votar em perguntas para serem respondidas.</p>
+   <p align="center">Let me ask é uma plataforma que cria salas de Q&A ao vivo onde os espectadores podem enviar e votar em perguntas para serem respondidas.</p>
 </p>
 
 <p align="center">
@@ -45,4 +45,9 @@ $ npm start
 ```
 
 The app will be available for access on your browser at http://localhost:3000
+
+# 🛰 Project
+Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
+
+Este é um projeto desenvolvido durante a Next Level Week Together, apresentada dos dias 20 a 27 de Junho de 2021.
 
