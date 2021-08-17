@@ -8,19 +8,19 @@
    <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
 </p>
 
-# 🛠 Technologies
+## 🛠 Technologies
 
 - [React](https://reactjs.org/)
 - [Firebase](https://firebase.google.com/)
 - [Typescript](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
 
-# ✨Feature Enhancement
+## ✨Feature Enhancement
 - From CSS Module to Styled Components
 - Better practices on CSS
 - New color theme
 
-# 📐 Getting started | Execute 
+## 📐 Getting started | Execute 
 
 ```bash
 $ git clone https://github.com/SanPhp/let-me-ask-now.git
@@ -56,7 +56,7 @@ Letmeask is perfect for content creators to create Q&A rooms with their audience
 
 This is a project developed during the Next Level Week Together, presented from the 20th to the 27th of June 2021.
 
-# ⛵ Layout
+## ⛵ Layout
 You can see all project below:
 
 [Layout Web](https://www.figma.com/file/QnGybn9gXPecwt8jdhR46r/Letmeask-(Copy)?node-id=0%3A1)
