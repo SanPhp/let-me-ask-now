@@ -30,6 +30,8 @@ Follow the steps below:
 ```bash
 # Install the dependencies
 $ yarn
+ou
+$ npm install
 
 # Start the project
 $ yarn start
