@@ -26,15 +26,22 @@ $ git clone https://github.com/SanPhp/let-me-ask-now.git
 $ cd let-me-ask-now
 ```
 
-Follow the steps below:
+Follow the steps below whith ( yarn ):
 ```bash
 # Install the dependencies
 $ yarn
-ou
-$ npm install
 
 # Start the project
 $ yarn start
 ```
+Follow the steps below whith ( npm ):
+```bash
+# Install the dependencies
+$ npm install
+
+# Start the project
+$ npm start
+```
+
 The app will be available for access on your browser at http://localhost:3000
 
