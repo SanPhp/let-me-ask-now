@@ -12,6 +12,16 @@ export const Questian = styled.div`
         color: #29292e;
     }
 
+    &.highlighted {
+        background-color: #f4f0ff;
+        border: 1px solid #835afd;
+    }
+
+    &.answered {
+        background: #dbdcdd;
+        border: none;
+    }
+
 `
 
 export const QuestionFooter = styled.footer`
@@ -20,10 +30,26 @@ export const QuestionFooter = styled.footer`
     align-items: center;
     margin-top: 24px;
 
-    > div:nth-of-type(2){
+     div:nth-of-type(2){
+
+        display: flex;
+        gap: 7px;
+
+      button:nth-of-type(1) {
         img {
-        width: 14px;
+        width: 20px;
     }
+      }
+      button:nth-of-type(2) {
+        img {
+        width: 20px;
+    }
+      }
+      button:nth-of-type(3) {
+        img {
+        width: 13px;
+    }
+      }
     }
 
     div {
@@ -57,11 +83,11 @@ export const QuestionFooter = styled.footer`
 
 
             &.liked {
-                color: #835afd;
+                
 
                 svg {
                     stroke: #835afd;
-                    fill: #e7e7e7;
+                    fill: tomato;
                 }
             }
         }   

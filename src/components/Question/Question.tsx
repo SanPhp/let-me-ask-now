@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
 import { auth } from "../../services/firebase";
 import { Questian, QuestionFooter } from "./style";
+import cx from "classnames";
+
 
 type QuestionProps = {
     content: string;
@@ -9,11 +11,18 @@ type QuestionProps = {
         avatar: string;
     }
     children?: ReactNode
+    isAnswered?: boolean
+    isHighlighted?: boolean
 }
 
-export function Question({ content, author, children }: QuestionProps) {
+export function Question({ content, author, isAnswered = false, isHighlighted = false, children }: QuestionProps) {
     return (
-        <Questian>
+        <Questian className={cx(
+            {answered: isAnswered},
+            {highlighted: isHighlighted && !isAnswered}
+        )}
+        
+        >
             <p>{content}</p>
             <QuestionFooter>
                 <div>
