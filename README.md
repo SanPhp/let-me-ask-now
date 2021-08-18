@@ -1,11 +1,12 @@
 <p align="center">
    <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
    <p align="center">Let me ask é uma plataforma que cria salas de Q&A ao vivo onde os espectadores podem enviar e votar em perguntas para serem respondidas.</p>
+    <p align="center">Let me ask is a platform that creates live Q&A rooms where viewers can submit and vote on questions to be answered.</p>
 </p>
 
 <p align="center">
-   <img alt="Letmeask" src="src/assets/images/1.png" style="width:50%;">
-   <img alt="Letmeask" src="src/assets/images/2.png" style="width:50%;">
+   <img alt="Letmeask" src="src/assets/images/1.png" width="500">
+   <img alt="Letmeask" src="src/assets/images/2.png" width="500">
 </p>
 
 ## 🛠 Technologies
