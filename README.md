@@ -12,6 +12,8 @@
 
 - [React](https://reactjs.org/)
 - [Firebase](https://firebase.google.com/)
+- [Firebase Authentication](https://firebase.google.com/products/auth)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
 - [Typescript](https://reactjs.org/)
 - [Classname](https://www.npmjs.com/package/classnames)
 - [Styled Components](https://styled-components.com/)
