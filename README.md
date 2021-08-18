@@ -4,8 +4,7 @@
 </p>
 
 <p align="center">
-   ### Aqui vai os PrintScreen
-   <img alt="Letmeask" src="src/assets/images/logo.svg" width="160px">
+   <img alt="Letmeask" src="src/assets/images/1.png" width="160px">
 </p>
 
 ## 🛠 Technologies
