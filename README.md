@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-   <img alt="Letmeask" src="src/assets/images/1.png" width="50%">
-   <img alt="Letmeask" src="src/assets/images/2.png" width="50%">
+   <img alt="Letmeask" src="src/assets/images/1.png" style="width:50%;">
+   <img alt="Letmeask" src="src/assets/images/2.png" style="width:50%;">
 </p>
 
 ## 🛠 Technologies
